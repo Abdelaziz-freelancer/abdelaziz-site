@@ -1,0 +1,641 @@
+{
+ "sections": [
+  {
+   "id": "5853263e-b8d6-4752-ab60-7797cc09c493",
+   "title": "معلومات العميل والبراند الأساسية",
+   "description": "البيانات التعريفية للاتصال والتواجد الرقمي",
+   "position": 1,
+   "questions": [
+    {
+     "id": "fa6c22c3-ccee-47b7-896a-40113c5b9216",
+     "type": "text",
+     "label": "اسمك",
+     "hint": "",
+     "placeholder": "اكتب اسمك هنا...",
+     "options": [],
+     "required": true,
+     "width": "half",
+     "variant": "",
+     "key": "client_name",
+     "position": 1,
+     "section_id": "5853263e-b8d6-4752-ab60-7797cc09c493"
+    },
+    {
+     "id": "597db7fb-c99d-471c-b22a-5ff557bd3470",
+     "type": "text",
+     "label": "اسم البراند / المشروع",
+     "hint": "",
+     "placeholder": "اكتب اسم البراند هنا...",
+     "options": [],
+     "required": true,
+     "width": "half",
+     "variant": "",
+     "key": "brand_name",
+     "position": 2,
+     "section_id": "5853263e-b8d6-4752-ab60-7797cc09c493"
+    },
+    {
+     "id": "a7e1538c-5034-4bb0-b4a3-49b00e265512",
+     "type": "text",
+     "label": "رقم الهاتف / واتساب",
+     "hint": "",
+     "placeholder": "01xxxxxxxxx",
+     "options": [],
+     "required": true,
+     "width": "half",
+     "variant": "",
+     "key": null,
+     "position": 3,
+     "section_id": "5853263e-b8d6-4752-ab60-7797cc09c493"
+    },
+    {
+     "id": "f9e98404-f40e-428d-af67-e4618e086f66",
+     "type": "email",
+     "label": "البريد الإلكتروني",
+     "hint": "",
+     "placeholder": "client@example.com",
+     "options": [],
+     "required": false,
+     "width": "half",
+     "variant": "",
+     "key": null,
+     "position": 4,
+     "section_id": "5853263e-b8d6-4752-ab60-7797cc09c493"
+    },
+    {
+     "id": "93fa7298-4073-4511-96b6-a1815c0d71a3",
+     "type": "text",
+     "label": "الدولة والمدينة / المقر الرئيسي",
+     "hint": "",
+     "placeholder": "مصر - القاهرة",
+     "options": [],
+     "required": false,
+     "width": "half",
+     "variant": "",
+     "key": null,
+     "position": 5,
+     "section_id": "5853263e-b8d6-4752-ab60-7797cc09c493"
+    },
+    {
+     "id": "7b3ce135-0c92-49e2-a374-068287879d71",
+     "type": "url",
+     "label": "رابط المتجر أو الموقع الإلكتروني",
+     "hint": "",
+     "placeholder": "https://www.example.com",
+     "options": [],
+     "required": false,
+     "width": "half",
+     "variant": "",
+     "key": null,
+     "position": 6,
+     "section_id": "5853263e-b8d6-4752-ab60-7797cc09c493"
+    },
+    {
+     "id": "0e29b22a-42a4-4ebb-be93-df4fc89ec57b",
+     "type": "text",
+     "label": "روابط حسابات السوشيال ميديا الحالية",
+     "hint": "",
+     "placeholder": "Facebook Page Link",
+     "options": [],
+     "required": false,
+     "width": "half",
+     "variant": "",
+     "key": null,
+     "position": 7,
+     "section_id": "5853263e-b8d6-4752-ab60-7797cc09c493"
+    }
+   ]
+  },
+  {
+   "id": "1172d1cb-ae56-4339-b09b-850421f0a5fb",
+   "title": "طبيعة البيزنس والمنتجات (Hero Products)",
+   "description": "فهم ما يقدمه المشروع وما يميزه عن غيره في السوق",
+   "position": 2,
+   "questions": [
+    {
+     "id": "19e11d03-a1fc-4109-b2ba-a074be4c6e42",
+     "type": "radio",
+     "label": "ايه مجال البيزنس (Industry)؟",
+     "hint": "",
+     "placeholder": "",
+     "options": [
+      "فاشون وملابس",
+      "أغذية ومطاعم",
+      "تجميل وعناية",
+      "عقارات Real Estate",
+      "عيادات وطب",
+      "تعليم وتدريب",
+      "تطبيقات وSaaS",
+      "B2B وشركات",
+      "E-commerce عام"
+     ],
+     "required": true,
+     "width": "full",
+     "variant": "",
+     "key": null,
+     "position": 1,
+     "section_id": "1172d1cb-ae56-4339-b09b-850421f0a5fb"
+    },
+    {
+     "id": "7ee4ed6b-5ea0-4062-9dc4-8347dec424da",
+     "type": "area",
+     "label": "وصف البيزنس والقصة وراءه",
+     "hint": "اشرح فكرة البيزنس كما تشرحها لعميل جديد يكتشفك لأول مرة",
+     "placeholder": "نحن براند متخصص في... نهدف إلى حل مشكلة...",
+     "options": [],
+     "required": false,
+     "width": "full",
+     "variant": "",
+     "key": null,
+     "position": 2,
+     "section_id": "1172d1cb-ae56-4339-b09b-850421f0a5fb"
+    },
+    {
+     "id": "bc311244-2307-479a-a7e8-2dbf1216654d",
+     "type": "area",
+     "label": "الميزة التنافسية للبراند (USP)",
+     "hint": "لماذا يشتري العميل منك تحديداً ويتجاهل المنافس الأقدم والأكبر؟",
+     "placeholder": "مثال: خامات أصلية بضمان استبدال فوري - توصيل في 24 ساعة - تجربة قبل الاستلام - سعر مصنع بدون وسيط...",
+     "options": [],
+     "required": true,
+     "width": "full",
+     "variant": "",
+     "key": null,
+     "position": 3,
+     "section_id": "1172d1cb-ae56-4339-b09b-850421f0a5fb"
+    }
+   ]
+  },
+  {
+   "id": "6cf8299b-e574-47d5-baf9-2e08058fe8b6",
+   "title": "الجمهور المستهدف (Buyer Persona)",
+   "description": "من هو العميل الذي نحدد له الميزانية لاصطياده؟",
+   "position": 3,
+   "questions": [
+    {
+     "id": "d561e45a-9a2b-427b-934a-2fc56cfa109c",
+     "type": "info",
+     "label": "ركيزة الاستهداف:",
+     "hint": "كلما كانت إجابتك هنا مبنية على أرقام المشترين الفعليين لديك وليست مجرد تخمين، كلما انخفضت تكلفة الرسالة أو الشراء (Cost Per Acquisition).",
+     "placeholder": "",
+     "options": [],
+     "required": false,
+     "width": "full",
+     "variant": "blue",
+     "key": null,
+     "position": 1,
+     "section_id": "6cf8299b-e574-47d5-baf9-2e08058fe8b6"
+    },
+    {
+     "id": "c18f20a9-d932-467e-a94d-aecac1e17df9",
+     "type": "checkbox",
+     "label": "الفئة العمرية المستهدفة",
+     "hint": "",
+     "placeholder": "",
+     "options": [
+      "18 - 24",
+      "25 - 34 (الأساسي)",
+      "35 - 44",
+      "45 - 54",
+      "55 سنة فما فوق"
+     ],
+     "required": true,
+     "width": "full",
+     "variant": "",
+     "key": null,
+     "position": 2,
+     "section_id": "6cf8299b-e574-47d5-baf9-2e08058fe8b6"
+    },
+    {
+     "id": "5c623c42-cbe1-415b-8f82-2067ace333f7",
+     "type": "radio",
+     "label": "الجنس المستهدف",
+     "hint": "",
+     "placeholder": "",
+     "options": [
+      "سيدات فقط",
+      "رجال فقط",
+      "كلاهما"
+     ],
+     "required": false,
+     "width": "full",
+     "variant": "",
+     "key": null,
+     "position": 3,
+     "section_id": "6cf8299b-e574-47d5-baf9-2e08058fe8b6"
+    },
+    {
+     "id": "71a33d28-888d-4908-980c-7227e0158ef7",
+     "type": "checkbox",
+     "label": "الطبقة الاقتصادية والقدرة الشرائية",
+     "hint": "",
+     "placeholder": "",
+     "options": [
+      "Class A+ / A (مترفة / VIP)",
+      "Class B+ / B (فوق متوسطة)",
+      "Class C (شعبية / متوسطة)"
+     ],
+     "required": false,
+     "width": "full",
+     "variant": "",
+     "key": null,
+     "position": 4,
+     "section_id": "6cf8299b-e574-47d5-baf9-2e08058fe8b6"
+    },
+    {
+     "id": "7e702591-dacb-4868-83f1-6cd689dcba9c",
+     "type": "text",
+     "label": "المناطق والمدن المستهدفة بالإعلانات",
+     "hint": "",
+     "placeholder": "مثال: القاهرة، الجيزة، الإسكندرية، محافظات الدلتا، أو دول الخليج...",
+     "options": [],
+     "required": false,
+     "width": "half",
+     "variant": "",
+     "key": null,
+     "position": 5,
+     "section_id": "6cf8299b-e574-47d5-baf9-2e08058fe8b6"
+    },
+    {
+     "id": "78d22e61-691d-4a67-9791-e622e2c100e3",
+     "type": "area",
+     "label": "أكبر مشكلة / وجع (Pain Point) يعاني منه عميلك ومنتجك يريحه منها؟",
+     "hint": "",
+     "placeholder": "العميل يعاني من... ويريد حلاً يوفر عليه الوقت / الفلوس / الإحراج...",
+     "options": [],
+     "required": false,
+     "width": "full",
+     "variant": "",
+     "key": null,
+     "position": 6,
+     "section_id": "6cf8299b-e574-47d5-baf9-2e08058fe8b6"
+    }
+   ]
+  },
+  {
+   "id": "71c949ea-11b1-40d6-8616-68f920dc6fa3",
+   "title": "تحليل المنافسين في السوق (Competitors)",
+   "description": "دراسة المنافسين المباشرين لنقتبس ما ينجح ونتفوق عليهم",
+   "position": 4,
+   "questions": [
+    {
+     "id": "d2b4751c-e1b9-46c2-9cd5-7990df96dcb5",
+     "type": "multitext",
+     "label": "أهم 3 منافسين مباشرين لك",
+     "hint": "",
+     "placeholder": "",
+     "options": [
+      "اسم المنافس الأول + رابط صفحته أو موقعه",
+      "اسم المنافس الثاني + رابط صفحته",
+      "اسم المنافس الثالث + رابط صفحته"
+     ],
+     "required": false,
+     "width": "full",
+     "variant": "",
+     "key": null,
+     "position": 1,
+     "section_id": "71c949ea-11b1-40d6-8616-68f920dc6fa3"
+    },
+    {
+     "id": "66dc30cd-4f08-436f-beae-4ac3364eb332",
+     "type": "radio",
+     "label": "مستوى أسعارك مقارنة بالمنافسين",
+     "hint": "",
+     "placeholder": "",
+     "options": [
+      "أسعاري أرخص",
+      "نفس متوسط السوق",
+      "أسعاري أعلى لجودة أرقى"
+     ],
+     "required": false,
+     "width": "full",
+     "variant": "",
+     "key": null,
+     "position": 2,
+     "section_id": "71c949ea-11b1-40d6-8616-68f920dc6fa3"
+    },
+    {
+     "id": "8e5f3d47-07ac-4557-b7c6-feee6ee0da4c",
+     "type": "text",
+     "label": "نقطة ضعف واضحة عند منافسيك يمكنك استغلالها",
+     "hint": "",
+     "placeholder": "مثال: خدمة عملاء بطيئة، شحن يتأخر، خامات رديئة...",
+     "options": [],
+     "required": false,
+     "width": "half",
+     "variant": "",
+     "key": null,
+     "position": 3,
+     "section_id": "71c949ea-11b1-40d6-8616-68f920dc6fa3"
+    }
+   ]
+  },
+  {
+   "id": "12a34fe0-4226-4809-8451-d478ba09020f",
+   "title": "الأهداف التسويقية ومؤشرات الأداء (KPIs)",
+   "description": "ما هو المقياس الوحيد الذي سنحتفل بنجاحه معاً؟",
+   "position": 5,
+   "questions": [
+    {
+     "id": "3accd0cb-5476-4102-b0ac-cb7821ce5392",
+     "type": "checkbox",
+     "label": "الهدف الأساسي الأول من الإعلانات",
+     "hint": "",
+     "placeholder": "",
+     "options": [
+      "مبيعات على المتجر الإلكتروني",
+      "رسائل واتساب / ماسنجر",
+      "جمع بيانات Leads (عيادات/عقارات/B2B)",
+      "تنزيل تطبيق موبايل",
+      "انتشار ووعي بالبراند"
+     ],
+     "required": true,
+     "width": "full",
+     "variant": "",
+     "key": null,
+     "position": 1,
+     "section_id": "12a34fe0-4226-4809-8451-d478ba09020f"
+    }
+   ]
+  },
+  {
+   "id": "56096a59-8881-4b2c-9d92-dc767871acbd",
+   "title": "الميزانية التقديرية",
+   "description": "حدد ميزانية الإعلانات الشهرية وإمكانية زيادتها لو الحملات نجحت",
+   "position": 6,
+   "questions": [
+    {
+     "id": "7eef692a-76ab-4753-a79c-ecd6783f19c0",
+     "type": "text",
+     "label": "الميزانية الشهرية الإعلانية المعتمدة",
+     "hint": "",
+     "placeholder": "مثال: 20,000 ج شهرياً",
+     "options": [],
+     "required": true,
+     "width": "half",
+     "variant": "",
+     "key": null,
+     "position": 1,
+     "section_id": "56096a59-8881-4b2c-9d92-dc767871acbd"
+    },
+    {
+     "id": "1d7cd54f-b9ea-4814-b1e1-2ee885f9eaa7",
+     "type": "radio",
+     "label": "هل الميزانية قابلة للزيادة (Scaling) في حال نجاح الحملات؟",
+     "hint": "",
+     "placeholder": "",
+     "options": [
+      "نعم بكل تأكيد",
+      "ثابتة في المرحلة الحالية"
+     ],
+     "required": false,
+     "width": "full",
+     "variant": "",
+     "key": null,
+     "position": 2,
+     "section_id": "56096a59-8881-4b2c-9d92-dc767871acbd"
+    }
+   ]
+  },
+  {
+   "id": "322733d3-b3be-4d46-8849-8fc654f63330",
+   "title": "المنصات الإعلانية ومسار التحويل الرقمي",
+   "description": "أين يتواجد عملاؤك وبأي قنوات سنصل إليهم؟",
+   "position": 7,
+   "questions": [
+    {
+     "id": "92d1be82-519a-4d1d-a625-91f7223cee5e",
+     "type": "checkbox",
+     "label": "المنصات المقترحة للعمل عليها",
+     "hint": "",
+     "placeholder": "",
+     "options": [
+      "ميتا (فيسبوك وإنستجرام)",
+      "تيك توك"
+     ],
+     "required": true,
+     "width": "full",
+     "variant": "",
+     "key": null,
+     "position": 1,
+     "section_id": "322733d3-b3be-4d46-8849-8fc654f63330"
+    },
+    {
+     "id": "64d4242b-09b3-4153-87b1-d3fde9f6daa0",
+     "type": "checkbox",
+     "label": "حالة البنية التقنية للتتبع (Tracking Infrastructure)",
+     "hint": "",
+     "placeholder": "",
+     "options": [
+      "ميتا بيكسل",
+      "محتاج أجهز بكسل"
+     ],
+     "required": false,
+     "width": "full",
+     "variant": "",
+     "key": null,
+     "position": 2,
+     "section_id": "322733d3-b3be-4d46-8849-8fc654f63330"
+    }
+   ]
+  },
+  {
+   "id": "df07fc92-e32a-44f0-915f-37e47d099eef",
+   "title": "سجل الحملات السابقة والدروس المستفادة",
+   "description": "ما تم تجربته سابقاً حتى لا نهدر الميزانية في تكراره",
+   "position": 8,
+   "questions": [
+    {
+     "id": "a6cdfc60-90b1-415d-b471-5364993fdb5e",
+     "type": "radio",
+     "label": "هل قمت بتشغيل إعلانات ممولة خلال آخر 6 أشهر؟",
+     "hint": "",
+     "placeholder": "",
+     "options": [
+      "نعم مع وكالة أو ميديا باير سابق",
+      "نعم بنفسي (Boost Post)",
+      "أول مرة نطلق إعلانات"
+     ],
+     "required": false,
+     "width": "full",
+     "variant": "",
+     "key": null,
+     "position": 1,
+     "section_id": "df07fc92-e32a-44f0-915f-37e47d099eef"
+    },
+    {
+     "id": "a7374a12-71a5-431c-94db-697be8377916",
+     "type": "area",
+     "label": "ما الذي نجح في تجاربك السابقة وما الذي كان فاشلاً أو سيئاً؟",
+     "hint": "",
+     "placeholder": "مثال: الإعلانات المصورة جلبت رسائل كثيرة لكن العملاء لم يشتروا... بينما فيديو الريلز جلب مبيعات ممتازة بتكلفة رسالة 15 جنيه...",
+     "options": [],
+     "required": false,
+     "width": "full",
+     "variant": "",
+     "key": null,
+     "position": 2,
+     "section_id": "df07fc92-e32a-44f0-915f-37e47d099eef"
+    }
+   ]
+  },
+  {
+   "id": "2a58deb9-9f91-46c7-ae38-605cf3ee07cd",
+   "title": "الكرييتفز والمحتوى الإعلاني (Creative Assets)",
+   "description": "الوقود الأساسي للإعلانات في الخوارزميات الحديثة",
+   "position": 9,
+   "questions": [
+    {
+     "id": "6d57d6ef-825c-4f27-9de3-67054c342ccd",
+     "type": "info",
+     "label": "قاعدة الميديا باينج الحديثة:",
+     "hint": "الإبداع البصري (Creative) يمثل 70% من نجاح أي حملة على Meta وTikTok اليوم.",
+     "placeholder": "",
+     "options": [],
+     "required": false,
+     "width": "full",
+     "variant": "gold",
+     "key": null,
+     "position": 1,
+     "section_id": "2a58deb9-9f91-46c7-ae38-605cf3ee07cd"
+    },
+    {
+     "id": "252a43d6-3ac4-492d-aa6f-2b4f2402884e",
+     "type": "checkbox",
+     "label": "المواد الإعلانية المتاحة لديك حالياً جاهزة للاستخدام",
+     "hint": "",
+     "placeholder": "",
+     "options": [
+      "فيديوهات رأسية Reels / TikTok",
+      "صور فوتوسيشن احترافية",
+      "آراء وريفيوهات عملاء (UGC)",
+      "Unboxing وتجربة استخدام",
+      "بوسترات وتصميمات فوتوشوب",
+      "نحتاج سكريبتات وتوجيه لصناعة المحتوى"
+     ],
+     "required": false,
+     "width": "full",
+     "variant": "",
+     "key": null,
+     "position": 2,
+     "section_id": "2a58deb9-9f91-46c7-ae38-605cf3ee07cd"
+    },
+    {
+     "id": "bfd574e5-e551-4d6f-8aae-e6106517ecf6",
+     "type": "radio",
+     "label": "نبرة الحديث ولغة البراند (Tone of Voice)",
+     "hint": "",
+     "placeholder": "",
+     "options": [
+      "عامية مصرية ودودة",
+      "فصحى مبسطة / لهجة خليجية",
+      "لغة فخمة Luxury",
+      "إنجليزي / Modern English"
+     ],
+     "required": false,
+     "width": "full",
+     "variant": "",
+     "key": null,
+     "position": 3,
+     "section_id": "2a58deb9-9f91-46c7-ae38-605cf3ee07cd"
+    }
+   ]
+  },
+  {
+   "id": "3202a031-2a72-455b-8afe-9ab9f776d041",
+   "title": "مسار المبيعات وعمليات التشغيل (Sales & Operations)",
+   "description": "كيف تتم معاملة العميل بعد أن ينقر على الإعلان؟",
+   "position": 10,
+   "questions": [
+    {
+     "id": "35c102d2-00ac-444f-a414-ad8afdea4ea8",
+     "type": "radio",
+     "label": "متوسط سرعة الرد على رسائل واستفسارات العملاء",
+     "hint": "",
+     "placeholder": "",
+     "options": [
+      "خلال 1 - 10 دقائق (ممتاز)",
+      "خلال ساعة إلى ساعتين",
+      "تأخير أكثر من 4 ساعات"
+     ],
+     "required": false,
+     "width": "full",
+     "variant": "",
+     "key": null,
+     "position": 1,
+     "section_id": "3202a031-2a72-455b-8afe-9ab9f776d041"
+    },
+    {
+     "id": "82d2aca2-341c-49a6-a4e3-9980f962d385",
+     "type": "text",
+     "label": "نسبة وصول وتسليم الشحنات (Delivery Rate)",
+     "hint": "",
+     "placeholder": "مثال: 85% تسليم ناجح مع شركة الشحن...",
+     "options": [],
+     "required": false,
+     "width": "half",
+     "variant": "",
+     "key": null,
+     "position": 2,
+     "section_id": "3202a031-2a72-455b-8afe-9ab9f776d041"
+    },
+    {
+     "id": "e02880eb-516e-4426-b482-3208a5fb4d94",
+     "type": "area",
+     "label": "هل توجد عروض وخصومات مغرية (Irresistible Offers) سنبدأ بها الحملة؟",
+     "hint": "",
+     "placeholder": "مثال: خصم 20% لأول 50 عميل - شحن مجاني عند طلب قطعتين - هدية إضافية مع كل أوردر...",
+     "options": [],
+     "required": false,
+     "width": "full",
+     "variant": "",
+     "key": null,
+     "position": 3,
+     "section_id": "3202a031-2a72-455b-8afe-9ab9f776d041"
+    }
+   ]
+  },
+  {
+   "id": "7e41dc24-a44c-4c04-a457-a43d0b1f9d05",
+   "title": "التحديات الحالية والمحاذير (Red Flags & Constraints)",
+   "description": "ما يجب تجنبه وما هي المخاوف الأكبر لدى العميل؟",
+   "position": 11,
+   "questions": [
+    {
+     "id": "30ce12b0-081f-44df-aaca-d9509964d5b5",
+     "type": "checkbox",
+     "label": "ما هي أكبر 3 مشاكل تواجه المشروع حالياً وتريد حلها؟",
+     "hint": "",
+     "placeholder": "",
+     "options": [
+      "تكلفة الإعلان مرتفعة جداً",
+      "رسائل كثيرة ولكن بدون شراء",
+      "نسبة مرتجعات شحن عالية",
+      "صعوبة الوصول للمشتري الحقيقي",
+      "مشاكل حظر حسابات الإعلانات"
+     ],
+     "required": false,
+     "width": "full",
+     "variant": "",
+     "key": null,
+     "position": 1,
+     "section_id": "7e41dc24-a44c-4c04-a457-a43d0b1f9d05"
+    },
+    {
+     "id": "befee899-095c-4d2e-8074-5bee24cbfc8d",
+     "type": "area",
+     "label": "الممنوعات والخطوط الحمراء التي لا تريد رؤيتها في الإعلانات إطلاقاً",
+     "hint": "",
+     "placeholder": "مثال: ممنوع استخدام تخفيضات وهمية - ممنوع وعود مبالغ فيها - عدم استخدام ألفاظ معينة...",
+     "options": [],
+     "required": false,
+     "width": "full",
+     "variant": "",
+     "key": null,
+     "position": 2,
+     "section_id": "7e41dc24-a44c-4c04-a457-a43d0b1f9d05"
+    }
+   ]
+  }
+ ]
+}
